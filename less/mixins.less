@@ -1,1 +1,17 @@
 // Mixins in here
+
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.test(){
+    border-bottom: 1px dashed black;
+}
+
+.button(){
+    border-radius: 5px;
+    background-color: teal;
+    color:white;
+}
